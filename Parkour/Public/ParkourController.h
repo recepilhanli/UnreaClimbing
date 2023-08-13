@@ -24,7 +24,10 @@ class PARKOUR_API AParkourController : public APlayerController
 	void Jump();
 	void Crouch();
 	void Sprint();
+
+	
+	
 public:
 	bool Sprinting = false;
-	
+
 };

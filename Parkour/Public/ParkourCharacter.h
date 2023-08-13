@@ -35,5 +35,9 @@ public:
 	void Velocity();
 	void HeightCheck();
 	void ForwardCheck();
+	void WallRun();
+	
+	int8 WallRunningState = 0; //0 -> isnt running on wall, 1 -> Running to the right side, -1 -> Running to the left side
+	
 	class AParkourController * controller;
 };
